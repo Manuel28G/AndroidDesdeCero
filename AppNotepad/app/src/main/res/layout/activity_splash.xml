@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ve.com.latinsoft.appnotepad.SplashActivity">
+    tools:context="ve.com.latinsoft.appnotepad.view.activity.SplashActivity">
 
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/leon"
+        app:srcCompat="@drawable/crazytaxi"
         tools:layout_editor_absoluteX="-4dp"
         tools:layout_editor_absoluteY="1dp" />
 </android.support.constraint.ConstraintLayout>
