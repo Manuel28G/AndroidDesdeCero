@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AppNotepad</string>
+    <string name="buendia">Buenos Días por defecto!</string>
 </resources>
