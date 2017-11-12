@@ -1,0 +1,12 @@
+En el archivo Style se agregan los estilos generales de la aplicación.
+
+Para quitar el menu superior que contiene el nombre de la aplicación se debe
+cambiar el parent del estilo de "Theme.AppCompat.Light.DarkActionBar" a
+"Theme.AppCompat.Light.NoActionBar"
+
+
+El "colorControlNormal" es el color de todos los controladores de contenido
+en su estado normal.
+
+Gravity: establece propiedades del centrado del texto al componentes
+Layout Gravity: Establece propiedades del centrado del texto al contenedor

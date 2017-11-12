@@ -1,0 +1,34 @@
+¿Que es Appcompat?
+
+
+When new versions of android is published, Google will have to support the older versions of android.
+So AppCompat is a set of support libraries which can be used to make the apps developed with newer versions to work with older versions.
+
+For example: When you create an android project with minimum Api level 9,
+and target api level 21, The newer features like ActionBar,
+Drawer Menu (Newer in the sense of which were not present in Api 9) etc should also be supported in the Api Level 10 phones.
+Then you can use the appCompat library. So the android actionbar will becomes, androidsupport actionbar/ supportFragment etc.
+
+
+¿Que es roboto?
+
+es la tipografía básica de Android
+
+Existe una segunda opción llamada "Noto"
+
+
+Toast
+
+Es un objeto que se puede aprovechar para mostrar texto, este mensaje sale
+como un popup en la parte inferior con fondo gris
+
+
+Finish()
+
+con esta sentencia se cierra la activity donde se esta realizando.
+esto cumple con la finalidad de liberar memoria y perder
+la trazabilidad de los procesos por ejemplo:
+cuando se inicia sesión si no se coloca el finish al darle en el boton
+de regresar irá nuevamente al menú de inicio de sesión, pero si se coloca
+el finish al iniciar sesión, entonces al darle regresar la apiclación
+llevará al usuario al menu principal del telefono

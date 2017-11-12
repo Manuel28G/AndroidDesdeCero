@@ -1,0 +1,24 @@
+Carpetas
+
+
+Res:
+
+  Drawable:
+
+  Layout:
+
+  mipmap:
+
+  values:
+
+    Strings:
+
+
+
+
+
+
+Bibliografía
+
+
+    https://developer.android.com/guide/topics/resources/providing-resources.html

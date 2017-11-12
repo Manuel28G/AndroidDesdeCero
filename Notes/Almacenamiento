@@ -1,0 +1,18 @@
+
+Una forma facil de almacenar información en el dispositivo es usando el SharedPreferences
+
+  *-SharedPreferences shared = getSharedPreferences("Usuarios", Context.MODE_PRIVATE);
+
+Con esta sentencia se crea un archivo de nombre "Usuarios" y con privilegios
+privado para que niguna otra aplicación pueda acceder a el
+
+Luego obtenemos el editor para asi agregarle valores al archivo
+
+  *-SharedPreferences.Editor editor = shared.edit();
+  *-editor.putString("user","ed");
+  *-editor.putString("password","ed");
+
+
+y finalmente guardamos los cambios realizados
+
+  *-editor.commit();
