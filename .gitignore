@@ -53,3 +53,11 @@ google-services.json
 freeline.py
 freeline/
 freeline_project_description.json
+
+AppNotepad/gradle/wrapper/
+
+AppNotepad/\.idea/inspectionProfiles/
+
+AppNotepad/\.idea/
+
+AppNotepad/app/
