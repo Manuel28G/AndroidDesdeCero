@@ -1,0 +1,116 @@
+¿Que es Appcompat?
+
+
+When new versions of android is published, Google will have to support the older versions of android.
+So AppCompat is a set of support libraries which can be used to make the apps developed with newer versions to work with older versions.
+
+For example: When you create an android project with minimum Api level 9,
+and target api level 21, The newer features like ActionBar,
+Drawer Menu (Newer in the sense of which were not present in Api 9) etc should also be supported in the Api Level 10 phones.
+Then you can use the appCompat library. So the android actionbar will becomes, androidsupport actionbar/ supportFragment etc.
+
+
+¿Que es roboto?
+
+es la tipografía básica de Android
+
+Existe una segunda opción llamada "Noto"
+
+
+Toast
+
+Es un objeto que se puede aprovechar para mostrar texto, este mensaje sale
+como un popup en la parte inferior con fondo gris
+
+
+Finish()
+
+con esta sentencia se cierra la activity donde se esta realizando.
+esto cumple con la finalidad de liberar memoria y perder
+la trazabilidad de los procesos por ejemplo:
+cuando se inicia sesión si no se coloca el finish al darle en el boton
+de regresar irá nuevamente al menú de inicio de sesión, pero si se coloca
+el finish al iniciar sesión, entonces al darle regresar la apiclación
+llevará al usuario al menu principal del telefono
+
+
+¿Wrap_Content y Match_Parent?
+-
+
+¿WeightSum?
+-
+
+Intent: es un clase abstracta de una operación a ser implementada. esta puede ser
+usada para:
+ -StartActivity: para lanzar una activity (Splash activity).
+ -BoradcastIntent: para enviar a varios interesados componentes en su BroadcastReceiver
+ -StartService(Intent):
+ -bindService(Intent,ServiceConnection,int):
+
+ Ref:https://developer.android.com/reference/android/content/Intent.html
+
+
+ Floating Action Button
+
+ Es el boton circular que se situa al frente e un layout y cumple la finalidad
+ de generar una acción de gran importancia, en GMail el Floating Action Button se
+ usa para crear un nuevo correo por ejemplo.
+
+ RecyclerView
+
+ Sirve para acomodar los elementos en un orden parecido al ListView.
+
+
+ RecyclerView y el CardView son recursos
+
+ https://developer.android.com/training/material/lists-cards.html?hl=es-419
+
+ Cada vez que tengamos un RecyclerView hay que asignarle un LinearLayoutManager,
+ El LinearLayoutManager es el que se ecarga de ordernar los elementos.
+
+
+ Adapters y ViewHolders
+
+
+
+
+Notas varias
+
+ Los fragment hacen uso del contexto de la activity a la cual se esta añadiendo
+
+APK Firmadas
+
+Las APK deben ser firmadas para poder ser montadas en la PlayStore y es necesario
+recordar la clave y archivo de la firma ya que cada vez que se quiera montar una
+actualización de la aplicación, es necesario montarla con la misma firma
+
+
+Instalación
+
+La APK generada comprime el proyecto a su minima expresión en peso y es uno de Los
+formatos de compresión más optimizados en la actualidad, con respecto al peso general
+el APK tiene contenido todos los recursos de la aplicación pero al momento de instalarlo
+el código se instalará completo pero los recursos se instalarán acorde al dispositivo
+con esto nos referimos solo a las imagenes de la resolución del teléfonó y el idioma
+seleccionado
+
+Una aplicación logra mas del 30% de descargas si en el nombre incluye de que trata
+Las aplicaciones que tienen un citio web generan mas descargas por tener más confianza
+la clasificación de contenido da la letra para saber quienes pueden ver tu contenido
+
+
+google AdSence
+es la plataforma de google para realizar los pagos en las aplicaciones
+ para los pagos debe haber una cantidad minima para realizar el pago
+
+ a las tres amonestaciones te bloquean la cuenta y la cierran
+
+ Recomendaciones
+
+ 1 no hay expertos en Android, es un sistema operativo y la dificultad es grande para
+ manejar todos
+
+ 2.Recurrir siempre a la documentación oficial.
+
+3.Plantearse proyectos para saber los limites de nuestros conocimientos, avanzar y
+aprender
